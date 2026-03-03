@@ -2,4 +2,5 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|Maslow Motor|1|$35.90|https://shop.maslowcnc.com/products/dc-motor|
+|Total: |1|$35.90| |

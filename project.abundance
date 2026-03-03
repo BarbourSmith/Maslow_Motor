@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Import",
-      "x": 0.22023809523809526,
-      "y": 0.5072046109510087,
+      "x": 0.25925925925925924,
+      "y": 0.3138888888888889,
       "uniqueID": "id-641",
       "fileName": "DC Motor.step",
       "name": "Import",
@@ -29,12 +29,285 @@
       "repoOwner": "BarbourSmith",
       "repoName": "Maslow_Motor",
       "SVGwidth": 10
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.2043650793650794,
+      "y": 0.6305555555555556,
+      "uniqueID": "id-646",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 8,
+          "currentEquation": "8"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.3531746031746032,
+      "y": 0.6444444444444445,
+      "uniqueID": "id-649",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": -27.5,
+          "currentEquation": "-27.5"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.23809523809523808,
+      "y": 0.9111111111111111,
+      "uniqueID": "id-653",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3941798941798942,
+      "y": 0.85,
+      "uniqueID": "id-657",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -8,
+          "currentEquation": "-5-3"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.49404761904761907,
+      "y": 0.8027777777777778,
+      "uniqueID": "id-663",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": -100,
+          "currentEquation": "-100"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.594047619047619,
+      "y": 0.8027777777777778,
+      "uniqueID": "id-667",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": -4
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.6329365079365079,
+      "y": 0.4916666666666667,
+      "uniqueID": "id-673",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.7466931216931217,
+      "y": 0.3111111111111111,
+      "uniqueID": "id-677",
+      "ioValues": [
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "import-step-53603220858cd60fc2e5dc836e39fbc2f2f80b80c80381af386918d36f034585",
+            "tags": [],
+            "color": "#aad7f2",
+            "bom": [],
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            }
+          }
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": {
+            "geometry": "cut-extrude-circle-4-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--27.5-move-extrude-move-rectangle-10-10--8-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--100-0-0--4",
+            "dimension": "3D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        }
+      ],
+      "unionType": "Fusion"
+    },
+    {
+      "atomType": "Add-BOM-Tag",
+      "x": 0.8333333333333334,
+      "y": 0.45555555555555555,
+      "uniqueID": "id-683",
+      "name": "Add BOM Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Item Name",
+          "ioValue": "Maslow Motor",
+          "currentEquation": "Maslow Motor"
+        },
+        {
+          "name": "Number Needed",
+          "ioValue": 1
+        },
+        {
+          "name": "Cost (USD)",
+          "ioValue": 35.9
+        },
+        {
+          "name": "Source Link",
+          "ioValue": "https://shop.maslowcnc.com/products/dc-motor",
+          "currentEquation": "https://shop.maslowcnc.com/products/dc-motor"
+        }
+      ],
+      "BOMitem": {
+        "BOMitemName": "Maslow Motor",
+        "numberNeeded": 1,
+        "costUSD": 35.9,
+        "source": "https://shop.maslowcnc.com/products/dc-motor"
+      }
     }
   ],
   "allConnectors": [
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "Shape 2",
       "ap1ID": "id-641",
+      "ap2ID": "id-677"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-646",
+      "ap2ID": "id-649"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-649",
+      "ap2ID": "id-673"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-653",
+      "ap2ID": "id-657"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-657",
+      "ap2ID": "id-663"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-663",
+      "ap2ID": "id-667"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-667",
+      "ap2ID": "id-673"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-673",
+      "ap2ID": "id-677"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-677",
+      "ap2ID": "id-683"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-683",
       "ap2ID": "id-639"
     }
   ],
